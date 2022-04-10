@@ -1,0 +1,40 @@
+http://www.mathprofi.ru/kak_reshit_sistemu_uravnenii.html - Решение системы линейных уравнений
+http://www.mathprofi.ru/kak_vychislit_opredelitel.html - Вычисление определителя
+http://www.mathprofi.ru/pravilo_kramera_matrichnyi_metod.html - Метод Крамера
+
+
+https://habr.com/ru/post/474602/ - Математическая сторона линейной регрессии на пальцах
+
+
+y = a + bx
+
+na + b * sum(x) - sum(y) == 0
+
+
+a * n          + b * sum(x)       == sum(y)
+a * sum(x)     + b * sum(x^2)     == sum(x) * sum(y)
+
+
+a1 - n
+a2 - sum(x)
+b1 - sum(x)
+b2 - sum(x^2)
+s1 - sum(y)
+s2 - sum(x) * sum(y)
+
+Неизвестные - а, b
+
+det1 == |n                           sum(x)|
+        |sum(x)                    sum(x^2)|
+
+== n * sum(x^2) - sum(x)
+
+
+
+detA == |sum(y)                      sum(x)|
+        |sum(sum(y ) * x)   sum(x * sum(x))|
+
+
+detB == |n                           sum(y)|
+        |sum(x)             sum(sum(y) * x)|
+

@@ -1,0 +1,284 @@
+{
+    "id": 3197158,
+    "scale_id": 5624,
+    "comment": "great work! good luck next project! <3 ",
+    "created_at": "2021-05-28T17:39:32.970Z",
+    "updated_at": "2021-05-29T09:08:15.714Z",
+    "feedback": "Спасибо за проверку!",
+    "final_mark": 100,
+    "flag": {
+        "id": 1,
+        "name": "Ok",
+        "positive": true,
+        "icon": "check-4",
+        "created_at": "2015-09-14T23:06:52.000Z",
+        "updated_at": "2015-09-14T23:06:52.000Z"
+    },
+    "begin_at": "2021-05-28T18:30:00.000Z",
+    "correcteds": [
+        {
+            "id": 83927,
+            "login": "hkarry",
+            "url": "https://api.intra.42.fr/v2/users/hkarry"
+        }
+    ],
+    "corrector": {
+        "id": 83901,
+        "login": "demilan",
+        "url": "https://api.intra.42.fr/v2/users/demilan"
+    },
+    "truant": {},
+    "filled_at": "2021-05-28T18:48:31.739Z",
+    "questions_with_answers": [
+        {
+            "id": 54730,
+            "name": "Simple Conversion Management",
+            "guidelines": "- Simply check each conversion without any flags 'cspdiuxX%'\n- Try special cases like 0 or smallest int or empty string or null pointer\n- Try with multiple arguments/conversions\n- Try the various conversions in the middle of a sentence (with other characters before and/or after)\n",
+            "rating": "bool",
+            "kind": "standard",
+            "answers": [
+                {
+                    "value": 1,
+                    "answer": null
+                }
+            ]
+        },
+        {
+            "id": 54734,
+            "name": "nfge",
+            "guidelines": "- Check if conversions 'n' 'f' 'g' 'e' are working fine (beware of 'n') with all the flag combinations\n- For each working conversion give 1 point\n- If all conversions are working give 1 bonus point\n",
+            "rating": "multi",
+            "kind": "bonus",
+            "answers": [
+                {
+                    "value": 0,
+                    "answer": null
+                }
+            ]
+        },
+        {
+            "id": 54731,
+            "name": "Simple Flags Management",
+            "guidelines": "- Use the 's' conversion for all the following test\n- Check the 'minimum field width' with values bigger, equal and smaller than the string\n- Check the 'minimum field width' with values bigger, equal and smaller than the string with -\n- Check the 'minimum field width' with values bigger, equal and smaller than the string with 0\n- Check the '.' with multiple precisions\n",
+            "rating": "bool",
+            "kind": "standard",
+            "answers": [
+                {
+                    "value": 1,
+                    "answer": null
+                }
+            ]
+        },
+        {
+            "id": 54735,
+            "name": "l ll h hh",
+            "guidelines": "- Check all the conversions with 'l' 'll' 'h' 'hh' with all the other flag combinations\n- For each working flag give 1 point\n- If all flags are working give 1 bonus point\n",
+            "rating": "multi",
+            "kind": "bonus",
+            "answers": [
+                {
+                    "value": 0,
+                    "answer": null
+                }
+            ]
+        },
+        {
+            "id": 54736,
+            "name": "# + space",
+            "guidelines": "- Check all the conversions with the flags '#', '+' and space with all the other flag combinations\n- For each working flag give 1 point\n- If all flags are working give 2 bonus points\n",
+            "rating": "multi",
+            "kind": "bonus",
+            "answers": [
+                {
+                    "value": 0,
+                    "answer": null
+                }
+            ]
+        },
+        {
+            "id": 54732,
+            "name": "Advanced Flags Management",
+            "guidelines": "- Use the 's' conversion for all the following test\n- Check '*' as minimum field width (try values like negative one, zero etc.)\n- Check '*' as precision (try values like negative one, zero etc.)\n- Check '*' as both with/without one other flag (try values like negative one, zero etc.)\n",
+            "rating": "bool",
+            "kind": "standard",
+            "answers": [
+                {
+                    "value": 1,
+                    "answer": null
+                }
+            ]
+        },
+        {
+            "id": 54733,
+            "name": "Get Crazy",
+            "guidelines": "- Try any combination of flags and conversions\n- Check what happens with duplicate flags\n",
+            "rating": "bool",
+            "kind": "standard",
+            "answers": [
+                {
+                    "value": 1,
+                    "answer": null
+                }
+            ]
+        }
+    ],
+    "scale": {
+        "id": 5624,
+        "evaluation_id": 2243,
+        "name": "scale 6",
+        "is_primary": true,
+        "comment": "",
+        "introduction_md": "Please respect the following rules:\n\n- Remain polite, courteous, respectful and constructive\n  throughout the evaluation process. The well-being of the community\n  depends on it.\n\n- Identify with the person (or the group) evaluated the eventual\n  dysfunctions of the work. Take the time to discuss\n  and debate the problems you have identified.\n\n- You must consider that there might be some difference in how your\n  peers might have understood the project's instructions and the\n  scope of its functionalities. Always keep an open mind and grade\n  him/her as honestly as possible. The pedagogy is valid only and\n  only if peer-evaluation is conducted seriously.\n",
+        "disclaimer_md": "",
+        "guidelines_md": "- Only grade the work that is in the student or group's\n  GiT repository.\n\n- Double-check that the GiT repository belongs to the student\n  or the group. Ensure that the work is for the relevant project\n  and also check that \"git clone\" is used in an empty folder.\n\n- Check carefully that no malicious aliases was used to fool you\n  and make you evaluate something other than the content of the\n  official repository.\n\n- To avoid any surprises, carefully check that both the evaluating\n  and the evaluated students have reviewed the possible scripts used\n  to facilitate the grading.\n\n- If the evaluating student has not completed that particular\n  project yet, it is mandatory for this student to read the\n  entire subject prior to starting the defence.\n\n- Use the flags available on this scale to signal an empty repository,\n  non-functioning program, a norm error, cheating etc. In these cases,\n  the grading is over and the final grade is 0 (or -42 in case of\n  cheating). However, with the exception of cheating, you are\n  encouraged to continue to discuss your work (even if you have not\n  finished it) in order to identify any issues that may have caused\n  this failure and avoid repeating the same mistake in the future.\n\n- Remember that for the duration of the defence, no segfault,\n  no other unexpected, premature, uncontrolled or unexpected\n  termination of the program, else the final grade is 0. Use the\n  appropriate flag. This behaviour will only be accepted if printf\n  also crashes under the same circumstances.\n  You should never have to edit any file except the configuration file if it exists.\n  If you want to edit a file, take the time to explicit the reasons with the \n  evaluated student and make sure both of you are okay with this.\n\n- You must also verify the absence of memory leaks. Any memory allocated on the heap must\n  be properly freed before the end of execution.\n  You are allowed to use any of the different tools available on the computer, such as\n  leaks, valgrind, or e_fence. In case of memory leaks, tick the appropriate flag.\n",
+        "created_at": "2021-04-12T16:40:45.133Z",
+        "correction_number": 3,
+        "duration": 1800,
+        "manual_subscription": true,
+        "languages": [
+            {
+                "id": 2,
+                "name": "English",
+                "identifier": "en",
+                "created_at": "2015-04-14T16:07:38.122Z",
+                "updated_at": "2021-07-13T09:41:42.186Z"
+            },
+            {
+                "id": 11,
+                "name": "Spanish",
+                "identifier": "es",
+                "created_at": "2019-08-09T15:14:32.544Z",
+                "updated_at": "2021-07-12T21:27:55.158Z"
+            }
+        ],
+        "flags": [
+            {
+                "id": 1,
+                "name": "Ok",
+                "positive": true,
+                "icon": "check-4",
+                "created_at": "2015-09-14T23:06:52.000Z",
+                "updated_at": "2015-09-14T23:06:52.000Z"
+            },
+            {
+                "id": 2,
+                "name": "Empty work",
+                "positive": false,
+                "icon": "file-1",
+                "created_at": "2015-09-14T23:06:52.000Z",
+                "updated_at": "2015-09-14T23:06:52.000Z"
+            },
+            {
+                "id": 4,
+                "name": "No author file",
+                "positive": false,
+                "icon": "bubble-attention-4",
+                "created_at": "2015-09-14T23:06:52.000Z",
+                "updated_at": "2015-09-14T23:06:52.000Z"
+            },
+            {
+                "id": 5,
+                "name": "Invalid compilation",
+                "positive": false,
+                "icon": "skull-2",
+                "created_at": "2015-09-14T23:06:52.000Z",
+                "updated_at": "2015-09-14T23:06:52.000Z"
+            },
+            {
+                "id": 6,
+                "name": "Norme",
+                "positive": false,
+                "icon": "receipt-1",
+                "created_at": "2015-09-14T23:06:52.000Z",
+                "updated_at": "2015-09-14T23:06:52.000Z"
+            },
+            {
+                "id": 7,
+                "name": "Cheat",
+                "positive": false,
+                "icon": "layers",
+                "created_at": "2015-09-14T23:06:52.000Z",
+                "updated_at": "2015-09-14T23:06:52.000Z"
+            },
+            {
+                "id": 8,
+                "name": "Crash",
+                "positive": false,
+                "icon": "bomb",
+                "created_at": "2015-09-14T23:06:52.000Z",
+                "updated_at": "2015-09-14T23:06:52.000Z"
+            },
+            {
+                "id": 9,
+                "name": "Outstanding project",
+                "positive": true,
+                "icon": "star-1",
+                "created_at": "2017-05-18T14:07:37.380Z",
+                "updated_at": "2017-05-18T14:12:07.415Z"
+            },
+            {
+                "id": 12,
+                "name": "Leaks",
+                "positive": false,
+                "icon": "blood",
+                "created_at": "2018-02-09T15:50:28.558Z",
+                "updated_at": "2018-02-09T15:50:28.558Z"
+            },
+            {
+                "id": 13,
+                "name": "Forbidden Function",
+                "positive": false,
+                "icon": "delete-2",
+                "created_at": "2018-05-15T12:44:59.600Z",
+                "updated_at": "2018-05-15T12:44:59.600Z"
+            }
+        ],
+        "free": false
+    },
+    "team": {
+        "id": 3578409,
+        "name": "hkarry's group",
+        "url": "https://api.intra.42.fr/v2/teams/3578409",
+        "final_mark": 83,
+        "project_id": 1316,
+        "created_at": "2021-05-28T17:25:52.011Z",
+        "updated_at": "2021-05-29T12:39:25.311Z",
+        "status": "finished",
+        "terminating_at": null,
+        "users": [
+            {
+                "id": 83927,
+                "login": "hkarry",
+                "url": "https://api.intra.42.fr/v2/users/hkarry",
+                "leader": true,
+                "occurrence": 0,
+                "validated": true,
+                "projects_user_id": 2184502
+            }
+        ],
+        "locked?": true,
+        "validated?": false,
+        "closed?": true,
+        "repo_url": "git@vogsphere.kzn.21-school.ru:vogsphere/intra-uuid-aa664624-e9b2-4293-991d-619202467021-3578409",
+        "repo_uuid": "intra-uuid-aa664624-e9b2-4293-991d-619202467021-3578409",
+        "locked_at": "2021-05-28T17:25:52.054Z",
+        "closed_at": "2021-05-28T17:37:35.584Z",
+        "project_session_id": 4514,
+        "project_gitlab_path": "pedago_world/42-cursus/inner-circle/ft_printf"
+    },
+    "feedbacks": [
+        {
+            "id": 3126823,
+            "user": {
+                "login": "hkarry",
+                "id": 83927,
+                "url": "https://profile.intra.42.fr/users/hkarry"
+            },
+            "feedbackable_type": "ScaleTeam",
+            "feedbackable_id": 3197158,
+            "comment": "Спасибо за проверку!",
+            "rating": 5,
+            "created_at": "2021-05-28T21:21:14.179Z"
+        }
+    ]
+}
